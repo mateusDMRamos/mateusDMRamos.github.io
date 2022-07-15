@@ -1,16 +1,26 @@
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    width: 300px;
+    float: left;
+    padding: 2px;
+    background-color: gray;
 }
 body{
-    background-color: gainsboro;
+    background: gainsboro;
 }
 h1{
-    font-family: 'Montserrat Alternates';
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
 }
 h3{
     color: blue;
     text-align: center;
+}
+div{
+    height: 401px;
+}
+
+#desc{
+    position: relative;
+    left: 10px;
+    top: 100px;
 }

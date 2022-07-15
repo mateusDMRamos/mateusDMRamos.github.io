@@ -1,16 +1,74 @@
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+*{
+    margin: 0;
+    padding: 0;
 }
+
 body{
-    background-color: gainsboro;
+    background: gainsboro;
 }
-h1{
-    font-family: monospace;
+
+#header{
+    height: 75px;
+    background-color: blue;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    line-height: 75px;
 }
+
+#saudacao{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#indice{
+    padding: 20px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+}
+
+#indice h2{
+    padding: 5px;
+}
+.link-indice{
+    display: inline-block;
+}
+
+.link-indice a{
+    text-decoration: underline;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-left: 1px solid black;
+    text-align: center;
+}
+
+#indice ul li.link-indice:nth-of-type(1) a{
+    border-left: 0;
+}
+
+img{
+    width: 300px;
+    float: left;
+    padding: 2px;
+    background-color: gray;
+}
+
+
 h3{
     color: blue;
     text-align: center;
+}
+div{
+    height: 401px;
+}
+
+#desc{
+    position: relative;
+    left: 10px;
+    top: 100px;
 }

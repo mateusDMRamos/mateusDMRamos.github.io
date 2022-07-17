@@ -4,15 +4,16 @@
 }
 
 body{
-    background: gainsboro;
+    background-color: rgb(62, 62, 63);
 }
 
-#header{
+#nome{
     height: 75px;
-    background-color: blue;
+    background-color: rgb(62, 62, 63);
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
     line-height: 75px;
+    color: rgb(147, 149, 151);
 }
 
 #saudacao{
@@ -20,22 +21,30 @@ body{
     padding: 10px;
     text-align: center;
     font-size: 40px;
+    background-color: rgb(147, 149, 151);
+    color: rgb(62, 62, 63);
 }
 
 #indice{
-    padding: 20px;
+    color: rgb(147, 149, 151);
+    padding: 20px 0px;
     height: auto;
     display: inline-block;
     text-align: center;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(62, 62, 63);
+    border-bottom: 1px solid rgb(147, 149, 151);
+    
 }
 
 #indice h2{
     padding: 5px;
+    font-size: 35px;
 }
 .link-indice{
     display: inline-block;
+    margin: 5px;
+
 }
 
 .link-indice a{
@@ -43,32 +52,130 @@ body{
     color: black;
     font-size: 20px;
     padding: 5px;
-    border-left: 1px solid black;
     text-align: center;
+    background-color: rgb(147, 149, 151);
+    border-radius: 3px;
 }
 
 #indice ul li.link-indice:nth-of-type(1) a{
     border-left: 0;
 }
 
-img{
-    width: 300px;
-    float: left;
-    padding: 2px;
-    background-color: gray;
-}
-
-
-h3{
-    color: blue;
+.tituloseção{
+    padding: 10px;
+    font-size: 30px;
     text-align: center;
+    color: rgb(147, 149, 151);
 }
-div{
-    height: 401px;
+
+/* apresentação*/
+
+#foto{
+    width: 30%;
+    float: left;
 }
 
 #desc{
+    display: inline-block;
+    width: 70%;
+    padding-left: 10px;
+    color: rgb(147, 149, 151);
+    font-size: 20px;
+}
+#desc p{
     position: relative;
-    left: 10px;
-    top: 100px;
+    padding-top: 50px;
+    padding-left:31%;
+}
+
+/* habilidades*/
+
+#habilidades{
+    text-align: center;
+}
+
+#softskills{
+    background-color: rgb(245, 233, 77);
+    border-radius: 8px;
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.soft{
+    display:  inline-block;
+
+}
+.soft img{
+    width: 80px;
+    padding-top: 20px;
+}
+#hardskills{
+    background-color: rgb(245, 233, 77);
+    border-radius: 8px;
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.hard{
+    display:  inline-block;
+}
+.hard img{
+    width: 80px;
+    padding-top: 20px;
+}
+
+/* sites*/
+
+.listasites{
+    text-align: center;
+}
+
+.acesse{
+    margin-right: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    vertical-align: middle;
+    background-color: rgb(245, 233, 77);
+    border-radius: 8px;
+}
+
+.acesse:hover{
+    background-color: rgba(245, 234, 77, 0.671);
+    border-left: 3px solid rgb(147, 149, 151);
+    border-bottom: 3px solid rgb(147, 149, 151);
+
+}
+
+.acesse img{
+    padding-top: 50px;
+    width: 50px;
+}
+
+#youtube{
+    text-decoration: none;
+}
+
+#youtube:hover{
+    color: red;
+    font-weight: bold;
+}
+
+#twitch{
+    color: purple;
+}
+
+.linksite {
+    color: black;
+}
+
+.linksite:hover #twitch{
+    font-weight: bold;
 }

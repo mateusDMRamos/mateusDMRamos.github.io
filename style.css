@@ -55,6 +55,7 @@ body{
     text-align: center;
     background-color: rgb(147, 149, 151);
     border-radius: 3px;
+    box-shadow: 2px 2px 2px black;
 }
 
 #indice ul li.link-indice:nth-of-type(1) a{
@@ -103,6 +104,7 @@ body{
     text-align: center;
     display: inline-block;
     margin-right: 20px;
+    box-shadow: 2px 2px 2px black;
 }
 
 .soft{
@@ -121,6 +123,7 @@ body{
     padding: 20px;
     text-align: center;
     display: inline-block;
+    box-shadow: 2px 2px 2px black;
 }
 
 .hard{

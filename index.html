@@ -10,55 +10,110 @@
   </head>
   <body>
     <!--Header do Site-->
+    <main>
+      <header id="header">
+        <h1 id="nome">Mateus de Medeiros Ramos</h1>
+        <h2 id="saudacao">Bem-vinde ao meu portifólio!</h2>
+      </header>
 
-    <div id="header">
-      <h1>Mateus de Medeiros Ramos</h1>
-    </div>
-    <h2 id="saudacao">Bem-vinde ao meu portifólio!</h2>
-    
-    <!--Índice-->
-   <div id="indice">
-      <h2>Navegue pelo portifólio: </h2>
-      <ul>
-        <li class="link-indice"><a href="#foto">Foto</a></li> 
-        <li class="link-indice"><a href="#desc">Quem sou eu?</a></li>
-        <li class="link-indice"><a href="#Habilidades">Principais Habilidades</a></li>
-        <li class="link-indice"><a href="#sites">Alguns Sites que utilizo com Frequência</a></li>
-        <li class="link-indice"><a href ="#links">Linkedin/GitHub para me conhecer melhor</a></li>
-      </ul>
-   </div>
-   
-    <!--Foto e Descrição-->
-    <h3>Quem sou eu?</h3>
-    <div>
-      <img src="photo_5080224211657665291_y.jpeg" alt="Autor do portifólio sorrindo: homem branco de cabelo castanho comprido até o pescoço. usando óculos de armação preta" id="foto" width="400px">
-      <p id="desc">Olá!<br><br>Eu sou o Mateus, nascido, criado e morando em <strong>Belo Horizonte, MG - Brasil.</strong> Me formei em <em>Engenharia Mecatrônica</em> e decidi migrar minha careira para a área de tecnologia.Estou no curso de <em>Web Dev Full Stacker</em> da <strong>Trybe</strong>.
-      <br>
-      <br>
-      Gosto de ler, assistir séries e crochetar, e recentemente estou desenvolvendo uma paixão por codar.</p>
-    </div>
-    <!--Lista de Habilidades-->
+      <!--Índice-->
+      <nav id="indice">
+        <h2>Navegue pelo portifólio: </h2>
+        <ul>
+          <li class="link-indice"><a href="#foto">Foto</a></li> 
+          <li class="link-indice"><a href="#desc">Quem sou eu?</a></li>
+          <li class="link-indice"><a href="#habilidades">Principais Habilidades</a></li>
+          <li class="link-indice"><a href="#sites">Alguns Sites que utilizo com Frequência</a></li>
+          <li class="link-indice"><a href ="#links">Linkedin/GitHub para me conhecer melhor</a></li>
+        </ul>
+      </nav>
 
-    <h3 id="habilidades">Minhas principais habilidades são: </h3>
-    <ul id="sites">
-      <li>Autocontrole</li>
-      <li>Empatia</li>
-      <li>Colaboração</li>
-    </ul>
+      <article>
+        <!--Foto e Descrição-->
+        <h3 class="tituloseção">Quem sou eu?</h3>
+        <section id="sobre">
+          <div id="desc">
+              <img src="photo_5080224211657665291_y.jpeg" alt="Autor do portifólio sorrindo: homem branco de cabelo castanho comprido até o pescoço. usando óculos de armação preta" id="foto">  
+              <p>Olá!
+                  <br>
+                  <br>
+                  Eu sou o Mateus, nascido, criado e morando em <strong>Belo Horizonte, MG - Brasil.</strong> Me formei em <em>Engenharia Mecatrônica</em> e decidi migrar minha careira para a área de tecnologia.Estou no curso de <em>Web Dev Full Stacker</em> da <strong>Trybe</strong>.
+                  <br>
+                  <br>
+                  Gosto de ler, assistir séries e crochetar, e recentemente estou desenvolvendo uma paixão por codar.
+                </p>
+          </div>
+        </section>
+        <!--Lista de Habilidades-->
+        <section id="habilidades">
+          <h3 class="tituloseção">Minhas principais habilidades são: </h3>
+          <ul id="softskills">
+            <p>Softskills:</p>
+            <li class="soft">
+              <img src="https://cdn-icons-png.flaticon.com/128/860/860387.png" alt="empatia ícone">
+              <br>
+              <br>
+              Empatia
+            </li>
+            <li class="soft">
+              <img src="https://cdn-icons-png.flaticon.com/512/5541/5541565.png" alt="colaboração icone">
+              <br>
+              <br>
+              Colaboração
+            </li>
+          </ul>
+          <ul id="hardskills">
+            <p>Hardskills:</p>
+            <li class="hard">
+              <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" alt="html ícone">
+              <br>
+              <br>
+              HTML
+            </li>
+            <li class="hard">
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="css icone">
+              <br>
+              <br>
+              CSS
+            </li>
+          </ul>
+        </section>
+        <!--Lista de Sites-->
+        <section id="sites">
+          <h3 class="tituloseção">Alguns Sites que utilizo com Frequência:</h3>
+          <nav class="listasites">
+            <ul>
+              <a href="https://www.twitch.tv/" target="_blank" class="linksite">
+                <li class="acesse">
+                  <img src="twitch-logo-4931D91F85-seelogo.com.png" alt="logo da twitch">
+                  <br>
+                  <span id="twitch">Twitch</span> 
+                  <br>
+                  <br>
+                  para assistir partidas de <em>esports</em> ao vivo.
+                </li>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" class="linksite">
+                <li class="acesse">
+                  <img src="youtube-logo.png" alt="logo do youtube">
+                  <br>
+                  <span id="youtube">Youtube</span>
+                  <br>
+                  <br>
+                  para assistir vídeos de curiosidades matemáticas, escutar músicas e curtas animações.
+                </li>
+              </a>
+            </ul>
+          </nav>
+        </section>
 
-    <!--Lista de Sites-->
-    <h3>Alguns Sites que utilizo com Frequência:</h3>
-    <ul>
-      <li><a href="https://www.twitch.tv/" target="_blank">Twitch</a>: para assistir partidas de <em>esports</em> ao vivo.</li>
-      <li><a href="https://www.youtube.com/" target="_blank">Youtube</a>: para assistir vídeos de curiosidades matemáticas, como <a href="https://www.youtube.com/watch?v=iSNsgj1OCLA" target="_blank">este</a>.</li>
-    </ul>
-
-
-    <!--links dea cesso às redes sociais-->
-    <h3 id="links">Links para me conhecer melhor:</h3>
-    <ul>
-        <li><a href="https://www.linkedin.com/in/mateusdmramos/" target="_blank">Linkedin</a></li>
-        <li><a href="https://github.com/mateusDMRamos" target="_blank">GitHub</a></li>
-    </ul>  
+        <!--links dea cesso às redes sociais-->
+        <h3 class="tituloseção">Links para me conhecer melhor:</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/mateusdmramos/" target="_blank">Linkedin</a></li>
+          <li><a href="https://github.com/mateusDMRamos" target="_blank">GitHub</a></li>
+        </ul>  
+      </article>
+    </main>
   </body>
 </html>

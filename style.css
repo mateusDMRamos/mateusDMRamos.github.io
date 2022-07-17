@@ -163,7 +163,7 @@ body{
     text-decoration: none;
 }
 
-#youtube:hover{
+.linksite:hover #youtube{
     color: red;
     font-weight: bold;
 }
